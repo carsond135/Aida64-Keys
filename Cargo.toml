@@ -1,0 +1,19 @@
+[workspace]
+
+members = [
+    "aida64-keys-cli",
+    "aida64-keys-gui",
+
+    "aida64-keys-lib",
+]
+
+[profile.release]
+opt-level = 3
+debug = false
+rpath = false
+debug-assertions = false
+panic = 'abort'
+incremental = false
+overflow-checks = false
+lto = true
+codegen-units = 1

@@ -1,0 +1,12 @@
+[package]
+name = "aida64-keys-cli"
+version = "0.1.0"
+authors = ["LeagueRaINi"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aida64-keys-lib = { path = "../aida64-keys-lib" }
+
+strum = "0.24"
